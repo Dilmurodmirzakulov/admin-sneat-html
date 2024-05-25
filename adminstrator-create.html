@@ -182,144 +182,84 @@
                   <div
                     class="d-flex mb-4 align-items-center justify-content-between">
                     <h4 class="py-3 mb-0">
-                      <span class="text-muted fw-light">
-                        <a href="#">Asosiy</a> /
-                      </span>
-                      Adminstratorlar
+                      <span class="text-muted fw-light"
+                        ><a href="./index.html">Asosiy</a> /</span
+                      >
+                      <span class="text-muted fw-light"
+                        ><a href="./adminstrator.html">Adminstratorlar</a>
+                        /</span
+                      >
+                      Yaratish
                     </h4>
-                    <a class="btn btn-success" href="./adminstrator-create.html"
-                      >Admin qo'shish</a
+                    <a class="btn btn-info" href="./adminstrator.html"
+                      >Orqaga</a
                     >
                   </div>
                   <div class="card">
-                    <div class="card-body">
-                      <div
-                        class="d-flex flex-column-reverse flex-md-row align-items-center justify-content-between mb-3">
+                    <form class="card-body">
+                      <div class="row">
+                        <div class="col-md-6 mb-3">
+                          <label class="form-label" for="hostel-name_ru"
+                            >FISH</label
+                          ><input
+                            type="text"
+                            id="hostel-name_ru"
+                            class="form-control"
+                            maxlength="255"
+                            name="name_ru"
+                            value="" />
+                        </div>
+                        <div class="mb-3 col-md-6">
+                          <label class="form-label" for="hostel-address_ru"
+                            >Telefon raqam </label
+                          ><input
+                            type="text"
+                            id="hostel-address_ru"
+                            class="form-control"
+                            name="address_ru"
+                            maxlength="50"
+                            value="" />
+                        </div>
+                        <div class="mb-3 col-md-6">
+                          <label class="form-label" for="hostel-address_ru"
+                            >Elektron manzil</label
+                          ><input
+                            type="text"
+                            id="hostel-address_ru"
+                            class="form-control"
+                            name="address_ru"
+                            maxlength="50"
+                            value="" />
+                        </div>
+                        <div class="col-md-6 mb-3">
+                          <label class="form-label" for="hostel-name_ru"
+                            >Buyurtmalar soni</label
+                          ><input
+                            type="text"
+                            id="hostel-name_ru"
+                            class="form-control"
+                            maxlength="255"
+                            name="name_ru"
+                            value="" />
+                        </div>
+                        <div class="col-md-6 d-flex align-items-center mb-3">
+                          <input
+                            class="form-check"
+                            type="checkbox"
+                            id="groups-is_active"
+                            name="is_active" /><label
+                            class="form-label mb-0 ms-2"
+                            for="groups-is_active"
+                            >Holati</label
+                          >
+                        </div>
                       </div>
-                      <div class="table-responsive mb-4">
-                        <table class="table table-striped table-hover">
-                          <thead>
-                            <tr>
-                              <th>#</th>
-                              <th>FISH</th>
-                              <th>Telefon raqam</th>
-                              <th>Email</th>
-                              <th>Buyurtmalar soni</th>
-                              <th>Holat</th>
-                              <th>&nbsp;</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <td>1</td>
-                              <td><a href="./adminstrator-view.html">Toxirjonova Dildora Sardorovna</a></td>
-                              <td>
-                                +998 99 617 45 65
-                              </td>
-                              <td>
-                                toxirjonova45@gmail.com
-                              </td>
-                              <td>
-                                67
-                              </td>
-                              <td>
-                                <input type="checkbox" name="parent_id" disabled="" checked="">
-                              </td>
-                              <td>
-                                <a class="btn p-1" href="./adminstrator-create.html">
-                                  <i class="fas fa-pen"></i>
-                                </a>
-                                <button class="btn p-1">
-                                  <i class="fas fa-trash"></i>
-                                </button>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>2</td>
-                              <td><a href="./adminstrator-view.html">Nuriddinov Alisher Farxodvich</a></td>
-                              <td>
-                                +998 93 517 75 65
-                              </td>
-                              <td>
-                                alisher45200@gmail.com
-                              </td>
-                              <td>
-                                82
-                              </td>
-                              <td>
-                                <input type="checkbox" name="parent_id" disabled="">
-                              </td>
-                              <td>
-                                <a class="btn p-1" href="./adminstrator-create.html">
-                                  <i class="fas fa-pen"></i>
-                                </a>
-                                <button class="btn p-1">
-                                  <i class="fas fa-trash"></i>
-                                </button>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
+                      <div>
+                        <button type="submit" class="btn btn-success">
+                          Сохранить
+                        </button>
                       </div>
-                      <div
-                        class="d-flex flex-column flex-md-row justify-content-between align-items-center">
-                        <span class="mb-2 mb-md-0"
-                          >Показаны записи 10 из 12</span
-                        >
-                        <ul
-                          class="pagination m-0 align-items-center"
-                          role="navigation"
-                          aria-label="Pagination">
-                          <li class="prev">
-                            <a
-                              class=""
-                              tabindex="0"
-                              role="button"
-                              aria-disabled="false"
-                              aria-label="Previous page"
-                              rel="prev"
-                              ><button class="page-link">
-                                <i class="fa-solid fa-angle-left"></i>
-                              </button
-                            ></a>
-                          </li>
-                          <li class="page-item active">
-                            <a
-                              rel="prev"
-                              role="button"
-                              class="page-link"
-                              tabindex="0"
-                              aria-label="Page 1"
-                              >1</a
-                            >
-                          </li>
-                          <li class="page-item">
-                            <a
-                              rel="canonical"
-                              role="button"
-                              class="page-link"
-                              tabindex="-1"
-                              aria-label="Page 2 is your current page"
-                              aria-current="page"
-                              >2</a
-                            >
-                          </li>
-                          <li class="next disabled">
-                            <a
-                              class=" "
-                              tabindex="-1"
-                              role="button"
-                              aria-disabled="true"
-                              aria-label="Next page"
-                              rel="next"
-                              ><button class="page-link">
-                                <i class="fa-solid fa-angle-right"></i>
-                              </button
-                            ></a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
+                    </form>
                   </div>
                 </div>
               </div>
