@@ -201,11 +201,11 @@
                         ><a href="/">Asosiy</a> /</span
                       >
                       <span class="text-muted fw-light"
-                        ><a href="./hostel.html">Mehmonxonalar</a> /</span
+                        ><a href="./tour.html">Turlar</a> /</span
                       >
-                      Al Riffa Hotel
+                      Tur 1
                     </h4>
-                    <a class="btn btn-info" href="./hostel.html">Orqaga</a>
+                    <a class="btn btn-info" href="./tour.html">Orqaga</a>
                   </div>
                   <div class="card mb-3">
                     <div class="card-body">
@@ -283,64 +283,207 @@
                   </div>
                   <div class="card mb-3">
                     <div class="card-body">
-                      <div class="row">
+                      <div class="row align-items-end">
                         <div class="col-md-2 col-6">
-                          <div class="d-flex flex-column">
-                            <div>
-                              <label for="adult-ticket" class="form-label"
-                                >Kattalar</label
-                              >
-                              <select class="form-select" name="" id="">
-                                <option value="0">0</option>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                              </select>
-                            </div>
-                            <div>
-                              <label for="child-ticket" class="form-label"
-                                >Bolalar</label
-                              >
-                              <select class="form-select" name="" id="">
-                                <option value="0">0</option>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                              </select>
-                            </div>
-                          </div>
+                          <label for="adult-ticket" class="form-label"
+                            >Kattalar</label
+                          >
+                          <select class="form-select" name="" id="">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                          </select>
                         </div>
                         <div class="col-md-2 col-6">
-                          <div class="mb-4">
-                            <label for="tour-status" class="form-label"
-                              >Tarif</label
+                          <label for="child-ticket" class="form-label"
+                            >Bolalar</label
+                          >
+                          <select class="form-select" name="" id="">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="card-body">
+                      <div class="row g-3 mb-3">
+                        <div class="col-md-6">
+                          <label class="form-label" for="">To'liq ism</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Ism va familiya"
+                          />
+                        </div>
+                        <div class="col-md-3 col-6">
+                          <label for="tour-status" class="form-label"
+                            >Passport (Skaner)</label
+                          >
+                          <input type="file" class="form-control" />
+                        </div>
+                        <div class="col-md-3 col-6">
+                          <label class="form-label" for="">Visa (Skaner)</label>
+                          <input type="file" class="form-control" />
+                        </div>
+                        <div class="col-md-3 col-6">
+                          <label for="tour-status" class="form-label"
+                            >Tarif</label
+                          >
+                          <select class="form-select" name="" id="tour-status">
+                            <option value="0">Standart</option>
+                            <option value="1">Comfort</option>
+                            <option value="2">Biznes</option>
+                          </select>
+                        </div>
+                        <div class="col-md-3 col-6">
+                          <label class="form-label" for="">Telefon raqam</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="+99 890 000 00 00"
+                          />
+                        </div>
+                        <div class="col-md-3 col-6">
+                          <label class="form-label" for="">To'lov holati</label>
+                          <select name="" id="" class="form-select">
+                            <option value="">To'lanmagan</option>
+                            <option value="">To'langan</option>
+                            <option value="">Kutilmoqda</option>
+                          </select>
+                        </div>
+                        <div class="col-md-3 col-6">
+                          <label class="form-label" for="">Jinsi</label>
+                          <select name="" id="" class="form-select">
+                            <option value="">Erkak</option>
+                            <option value="">Ayol</option>
+                          </select>
+                        </div>
+                        <div class="col-md-3 col-6">
+                          <label class="form-label" for="">Yoshi</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Yoshi"
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <label class="form-label" for=""
+                            >Qo'shimcha ma'lumot</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Qo'shimcha ma'lumotlar"
+                          />
+                        </div>
+                      </div>
+                      <div class="d-flex justify-content-end">
+                        <button class="btn btn-secondary me-3">Tozalash</button>
+                        <button class="btn btn-success">Saqlash</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="card-body">
+                      <div class="row g-3 mb-3">
+                        <div class="col-md-6">
+                          <label class="form-label" for="">To'liq ism</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Ism va familiya"
+                          />
+                        </div>
+                        <div class="col-md-3 col-6">
+                          <label for="tour-status" class="form-label"
+                            >Passport (Skaner)</label
+                          >
+                          <input type="file" class="form-control" />
+                        </div>
+                        <div class="col-md-3 col-6">
+                          <label class="form-label" for="">Visa (Skaner)</label>
+                          <input type="file" class="form-control" />
+                        </div>
+                        <div class="col-md-3 col-6">
+                          <label for="tour-status" class="form-label"
+                            >Tarif</label
+                          >
+                          <select class="form-select" name="" id="tour-status">
+                            <option value="0">Standart</option>
+                            <option value="1">Comfort</option>
+                            <option value="2">Biznes</option>
+                          </select>
+                        </div>
+                        <div class="col-md-3 col-6">
+                          <label class="form-label" for="">Telefon raqam</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="+99 890 000 00 00"
+                          />
+                        </div>
+                        <div class="col-md-3 col-6">
+                          <label class="form-label" for="">To'lov holati</label>
+                          <select name="" id="" class="form-select">
+                            <option value="">To'lanmagan</option>
+                            <option value="">To'langan</option>
+                            <option value="">Kutilmoqda</option>
+                          </select>
+                        </div>
+                        <div class="col-md-3 col-6">
+                          <label class="form-label" for="">Jinsi</label>
+                          <select name="" id="" class="form-select">
+                            <option value="">Erkak</option>
+                            <option value="">Ayol</option>
+                          </select>
+                        </div>
+                        <div class="col-md-3 col-6">
+                          <label class="form-label" for="">Yoshi</label>
+                          <select name="" id="" class="form-select">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                          </select>
+                        </div>
+                        <div class="col-md-3 col-6 align-content-end">
+                          <div class="form-check">
+                            <input
+                              class="form-check-input"
+                              type="checkbox"
+                              value=""
+                              id="child-bad"
+                              checked=""
+                            />
+                            <label for="child-bad" class="form-check-label"
+                              >Bolaga alohida yotoq</label
                             >
-                            <select
-                              class="form-select"
-                              name=""
-                              id="tour-status"
-                            >
-                              <option value="0">Standart</option>
-                              <option value="1">Comfort</option>
-                              <option value="2">Biznes</option>
-                            </select>
-                          </div>
-                          <div>
-                            <div class="form-check">
-                              <input
-                                class="form-check-input"
-                                type="checkbox"
-                                value=""
-                                id="child-bad"
-                                checked=""
-                              />
-                              <label for="child-bad" class="form-check-label"
-                                >Bolaga alohida yotoq</label
-                              >
-                            </div>
                           </div>
                         </div>
+                        <div class="col-md-6">
+                          <label class="form-label" for=""
+                            >Qo'shimcha ma'lumot</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Qo'shimcha ma'lumotlar"
+                          />
+                        </div>
+                      </div>
+                      <div class="d-flex justify-content-end">
+                        <button class="btn btn-secondary me-3">Tozalash</button>
+                        <button class="btn btn-success">Saqlash</button>
                       </div>
                     </div>
                   </div>
