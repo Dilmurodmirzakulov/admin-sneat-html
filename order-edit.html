@@ -209,69 +209,81 @@
                   </div>
                   <div class="card mb-3">
                     <div class="card-body">
-                      <table
-                        class="table table-striped table-bordered detail-view"
-                      >
-                        <tbody>
-                          <tr>
-                            <th>Identifikatsiya raqami</th>
-                            <td>1</td>
-                          </tr>
-                          <tr>
-                            <th>Ism va familiyasi</th>
-                            <td>Esonov Omon</td>
-                          </tr>
-                          <tr>
-                            <th>Telefon raqami</th>
-                            <td>+998 99 613 22 33</td>
-                          </tr>
-                          <tr>
-                            <th>Passport Seriyasi</th>
-                            <td>AA 012 12 34</td>
-                          </tr>
-                          <tr>
-                            <th>Yoshi</th>
-                            <td>45</td>
-                          </tr>
-                          <tr>
-                            <th>Jinsi</th>
-                            <td>Erkak</td>
-                          </tr>
-                          <tr>
-                            <th>Operator</th>
-                            <td>
-                              <a href="#">Iqboljonov Ozod</a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <th>Yaratilgan vaqti</th>
-                            <td>02.05.2024</td>
-                          </tr>
-                          <tr>
-                            <th>To'lov holati</th>
-                            <td>To'langan</td>
-                          </tr>
-                          <tr>
-                            <th>Passport</th>
-                            <td>
-                              <a href="#">Ochish</a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <th>Visa</th>
-                            <td>
-                              <a href="#">Ochish</a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <th>Qo'shimcha ma'lumotlar</th>
-                            <td>
-                              Lorem ipsum dolor sit, amet consectetur recusandae
-                              adipisci dicta magni officia.
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
+                      <div class="row g-3 mb-3">
+                        <div class="col-md-6">
+                          <label class="form-label" for="">To'liq ism</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Ism va familiya"
+                          />
+                        </div>
+                        <div class="col-md-3 col-6">
+                          <label for="tour-status" class="form-label"
+                            >Passport (Skaner)</label
+                          >
+                          <input type="file" class="form-control" />
+                        </div>
+                        <div class="col-md-3 col-6">
+                          <label class="form-label" for="">Visa (Skaner)</label>
+                          <input type="file" class="form-control" />
+                        </div>
+                        <div class="col-md-3 col-6">
+                          <label for="tour-status" class="form-label"
+                            >Tarif</label
+                          >
+                          <select class="form-select" name="" id="tour-status">
+                            <option value="0">Standart</option>
+                            <option value="1">Comfort</option>
+                            <option value="2">Biznes</option>
+                          </select>
+                        </div>
+                        <div class="col-md-3 col-6">
+                          <label class="form-label" for="">Telefon raqam</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="+99 890 000 00 00"
+                          />
+                        </div>
+                        <div class="col-md-3 col-6">
+                          <label class="form-label" for="">To'lov holati</label>
+                          <select name="" id="" class="form-select">
+                            <option value="">To'lanmagan</option>
+                            <option value="">To'langan</option>
+                            <option value="">Kutilmoqda</option>
+                          </select>
+                        </div>
+                        <div class="col-md-3 col-6">
+                          <label class="form-label" for="">Jinsi</label>
+                          <select name="" id="" class="form-select">
+                            <option value="">Erkak</option>
+                            <option value="">Ayol</option>
+                          </select>
+                        </div>
+                        <div class="col-md-3 col-6">
+                          <label class="form-label" for="">Yoshi</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Yoshi"
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <label class="form-label" for=""
+                            >Qo'shimcha ma'lumot</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Qo'shimcha ma'lumotlar"
+                          />
+                        </div>
+                      </div>
+                      <div class="d-flex justify-content-end">
+                        <button class="btn btn-secondary me-3">Tozalash</button>
+                        <button class="btn btn-success">Saqlash</button>
+                      </div>
                     </div>
                   </div>
                 </div>
