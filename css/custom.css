@@ -11,6 +11,14 @@ body {
   z-index: 9;
 }
 
+.dt-filter-wrp {
+  height: 200px;
+  overflow: scroll !important;
+  background-color: var(--bs-body-bg);
+  padding: 7px 14px;
+  border-radius: 0.375em;
+}
+
 .app-brand {
   background-color: #fff;
   padding-left: 15px;
