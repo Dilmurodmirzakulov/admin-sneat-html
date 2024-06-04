@@ -12,11 +12,19 @@ body {
 }
 
 .dt-filter-wrp {
-  height: 200px;
+  height: 209px;
   overflow: scroll !important;
   background-color: var(--bs-body-bg);
   padding: 7px 14px;
   border-radius: 0.375em;
+}
+
+.dt-total-price {
+  text-decoration: line-through;
+  line-height: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .app-brand {
