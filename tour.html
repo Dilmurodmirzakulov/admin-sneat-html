@@ -420,7 +420,7 @@
                 </div>
                 <div class="card mb-4">
                   <div class="card-body">
-                    <div class="d-flex flex-column-reverse flex-md-row align-items-center justify-content-between mb-3">
+                    <div class="d-flex flex-column-reverse flex-md-row align-items-lg-center justify-content-lg-between mb-3">
                       <div>
                         <div class="d-flex justify-content-between mb-2">
                           <label for="start-date" class="form-label me-4"
@@ -520,7 +520,7 @@
                         <div class="d-flex justify-content-between mb-2 align-items-center">
                           <label for="start-date" class="form-label me-4"
                           >гостиница</label>
-                          <input type="search" class="form-control me-4" placeholder="" aria-controls="DataTables_Table_1">
+                          <input type="search" class="form-control me-4 d-sm-none d-md-block" placeholder="" aria-controls="DataTables_Table_1">
                           <div class="form-check me-4">
                             <label class="form-check-label" for="defaultCheck3">
                               выбранные
@@ -642,7 +642,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="d-flex flex-column-reverse flex-md-row align-items-center justify-content-between mb-3">
+                    <div class="d-flex flex-column-reverse flex-md-row align-items-lg-center justify-content-lg-between mb-3">
                       <div>
                         <div class="form-check">
                           <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
@@ -723,6 +723,7 @@
                             <th>#</th>
                             <th>Tur</th>
                             <th>Vaqtlar</th>
+                            <th>&nbsp;</th>
                             <th>Kecha</th>
                             <th>Narxi</th>
                             <th>Biletlar</th>
@@ -734,19 +735,22 @@
                           <tr>
                             <td>1</td>
                             <td>
-                              <a data-bs-toggle="modal" data-bs-target="#tourDetail" href="./tour-view.html">Tur nomi</a>
+                              <a href="./tour-order.html">Tur nomi</a>
                             </td>
                             <td>
-                              <a href="./tour-view.html"
-                                >6.06.2024 - 20.06.2024</a
-                              >
+                               6.06.2024 - 20.06.2024
+                            </td>
+                            <td>
+                              <button class="btn p-1" data-bs-toggle="modal" data-bs-target="#tourDetail">
+                                <i class="fas fa-file"></i>
+                              </button>
                             </td>
                             <td>14</td>
                             <td>15 750 000</td>
                             <td>12 / 45</td>
                             <td>Toshkent</td>
                             <td>
-                              <a class="btn p-1" href="./tour-view.html">
+                              <a class="btn p-1" href="./tour-order.html">
                                 <i class="fas fa-pen"></i>
                               </a>
                               <button class="btn p-1">
@@ -757,19 +761,22 @@
                           <tr>
                             <td>1</td>
                             <td>
-                              <a href="./tour-view.html">Tur nomi</a>
+                              <a href="./tour-order.html">Tur nomi</a>
                             </td>
                             <td>
-                              <a href="./tour-view.html"
-                                >2.07.2024 - 16.07.2024</a
-                              >
+                              2.07.2024 - 16.07.2024
+                            </td>
+                            <td>
+                              <button class="btn p-1" data-bs-toggle="modal" data-bs-target="#tourDetail">
+                                <i class="fas fa-file"></i>
+                              </button>
                             </td>
                             <td>14</td>
                             <td>13 600 000</td>
                             <td>40 / 45</td>
                             <td>Andijon</td>
                             <td>
-                              <a class="btn p-1" href="./tour-view.html">
+                              <a class="btn p-1" href="./tour-order.html">
                                 <i class="fas fa-pen"></i>
                               </a>
                               <button class="btn p-1">
@@ -780,19 +787,22 @@
                           <tr>
                             <td>3</td>
                             <td>
-                              <a href="./tour-view.html">Tur nomi</a>
+                              <a href="./tour-order.html">Tur nomi</a>
                             </td>
                             <td>
-                              <a href="./tour-view.html"
-                                >5.09.2024 - 15.09.2024</a
-                              >
+                              5.09.2024 - 15.09.2024
+                            </td>
+                            <td>
+                              <button class="btn p-1" data-bs-toggle="modal" data-bs-target="#tourDetail">
+                                <i class="fas fa-file"></i>
+                              </button>
                             </td>
                             <td>14</td>
                             <td>12 800 000</td>
                             <td>44 / 45</td>
                             <td>Toshkent</td>
                             <td>
-                              <a class="btn p-1" href="./tour-view.html">
+                              <a class="btn p-1" href="./tour-order.html">
                                 <i class="fas fa-pen"></i>
                               </a>
                               <button class="btn p-1">
