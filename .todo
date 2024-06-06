@@ -1,6 +1,6 @@
-**insurance - name, qty, start date - end date
-**Hotel (card) - NUTRITION, living period, description, 2Adl qty: input(0) - price: input(0), 3Adl qty: input(0) - price: input(0), 4Adl (Mrs) qty: input(0) - price: input(0), 4Adl (Mr) qty: input(0) - price: input(0)
+insurance - name, qty, start date - end date
+Hotel (card) - NUTRITION, living period, description, 2Adl qty: input(0) - price: input(0), 3Adl qty: input(0) - price: input(0), 4Adl (Mrs) qty: input(0) - price: input(0), 4Adl (Mr) qty: input(0) - price: input(0)
     add new btn, save btn, cancel btn.
 **airplane - period, description, tickets, flying period
-**Дополнительные услуги - row
-**Состав пакета - row
+Дополнительные услуги - row
+Состав пакета - row
