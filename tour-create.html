@@ -212,7 +212,7 @@
                   <div class="card mb-4">
                     <div class="card-body">
                       <div class="row">
-                        <div class="col-md-4 col-6 mb-3">
+                        <div class="col-md-3 col-6 mb-3">
                           <label class="form-label" for="hostel-name_uz"
                             >тур</label
                           ><input
@@ -224,15 +224,32 @@
                             value=""
                           />
                         </div>
-                        <div class="mb-3 col-md-4 col-6">
-                          <label class="form-label" for="forAirways"
-                            >дыхательные пути</label
-                          >
-                          <select class="form-select select2" id="forAirways" multiple="multiple" style="width: 100%;">
-                            <option value="option1">Gulbahor Airways</option>
-                            <option value="option2">O'zb Airways</option>
-                            <option value="option3">Semurg' Airways</option>
-                          </select>
+                        <div class="mb-3 col-md-3 col-6">
+                          <label class="form-label" for="hostel-address_uz"
+                            >ночей</label
+                          ><input
+                            type="number"
+                            id="hostel-address_uz"
+                            class="form-control"
+                          />
+                        </div>
+                        <div class="mb-3 col-md-3 col-6">
+                          <label class="form-label" for="hostel-address_uz"
+                            >вылет от</label
+                          ><input
+                            type="datetime-local"
+                            id="hostel-address_uz"
+                            class="form-control"
+                          />
+                        </div>
+                        <div class="mb-3 col-md-3 col-6">
+                          <label class="form-label" for="hostel-address_uz"
+                            >до</label
+                          ><input
+                            type="datetime-local"
+                            id="hostel-address_uz"
+                            class="form-control"
+                          />
                         </div>
                         <div class="mb-3 col-md-4 col-6">
                           <label class="form-label" for="hostel-address_uz"
@@ -264,10 +281,27 @@
                             <option value="1">Makka</option>
                           </select>
                         </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-4">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="mb-3 col-md-4 col-6">
+                          <label class="form-label" for="forAirways1"
+                            >дыхательные пути</label
+                          >
+                          <select class="form-select select2" id="forAirways1" multiple="multiple" style="width: 100%;">
+                            <option value="option1">Gulbahor Airways</option>
+                            <option value="option2">O'zb Airways</option>
+                            <option value="option3">Semurg' Airways</option>
+                          </select>
+                        </div>
                         <div class="mb-3 col-md-4 col-6">
                           <label class="form-label" for="hostel-address_uz"
-                            >ночей</label
-                          ><input
+                            >билет</label
+                          >
+                          <input
                             type="number"
                             id="hostel-address_uz"
                             class="form-control"
@@ -275,14 +309,45 @@
                         </div>
                         <div class="mb-3 col-md-4 col-6">
                           <label class="form-label" for="hostel-address_uz"
-                            >вылет от</label
+                            >СТАТУС ТРАНСПОРТ</label
+                          >
+                          <select name="" id="" class="form-select">
+                            <option value="1">business</option>
+                            <option value="1">comfort</option>
+                            <option value="1">standart</option>
+                          </select>
+                        </div>
+                        <div class="mb-3 col-md-3 col-6">
+                          <label class="form-label" for="hostel-address_uz"
+                            >город отправления</label
+                          ><input
+                            type="text"
+                            id="hostel-address_uz"
+                            class="form-control"
+                            name="address_uz"
+                            maxlength="50"
+                            value=""
+                          />
+                        </div>
+                        <div class="mb-3 col-md-3 col-6">
+                          <label class="form-label" for="hostel-address_uz"
+                            >город</label
+                          ><select name="" id="" class="form-select">
+                            <option value="1">O'zbekistom</option>
+                            <option value="1">Dubai</option>
+                            <option value="1">Turkiya</option>
+                          </select>
+                        </div>
+                        <div class="mb-3 col-md-3 col-6">
+                          <label class="form-label" for="hostel-address_uz"
+                            >от</label
                           ><input
                             type="datetime-local"
                             id="hostel-address_uz"
                             class="form-control"
                           />
                         </div>
-                        <div class="mb-3 col-md-4 col-6">
+                        <div class="mb-3 col-md-3 col-6">
                           <label class="form-label" for="hostel-address_uz"
                             >до</label
                           ><input
@@ -291,7 +356,79 @@
                             class="form-control"
                           />
                         </div>
-                        
+                        <hr>
+                        <div class="mb-3 col-md-4 col-6">
+                          <label class="form-label" for="forAirways2"
+                            >дыхательные пути</label
+                          >
+                          <select class="form-select select2" id="forAirways2" multiple="multiple" style="width: 100%;">
+                            <option value="option1">Gulbahor Airways</option>
+                            <option value="option2">O'zb Airways</option>
+                            <option value="option3">Semurg' Airways</option>
+                          </select>
+                        </div>
+                        <div class="mb-3 col-md-4 col-6">
+                          <label class="form-label" for="hostel-address_uz"
+                            >билет</label
+                          >
+                          <input
+                            type="number"
+                            id="hostel-address_uz"
+                            class="form-control"
+                          />
+                        </div>
+                        <div class="mb-3 col-md-4 col-6">
+                          <label class="form-label" for="hostel-address_uz"
+                            >СТАТУС ТРАНСПОРТ</label
+                          >
+                          <select name="" id="" class="form-select">
+                            <option value="1">business</option>
+                            <option value="1">comfort</option>
+                            <option value="1">standart</option>
+                          </select>
+                        </div>
+                        <div class="mb-3 col-md-3 col-6">
+                          <label class="form-label" for="hostel-address_uz"
+                            >город отправления</label
+                          ><input
+                            type="text"
+                            id="hostel-address_uz"
+                            class="form-control"
+                            name="address_uz"
+                            maxlength="50"
+                            value=""
+                          />
+                        </div>
+                        <div class="mb-3 col-md-3 col-6">
+                          <label class="form-label" for="hostel-address_uz"
+                            >город</label
+                          ><select name="" id="" class="form-select">
+                            <option value="1">O'zbekistom</option>
+                            <option value="1">Dubai</option>
+                            <option value="1">Turkiya</option>
+                          </select>
+                        </div>
+                        <div class="mb-3 col-md-3 col-6">
+                          <label class="form-label" for="hostel-address_uz"
+                            >от</label
+                          ><input
+                            type="datetime-local"
+                            id="hostel-address_uz"
+                            class="form-control"
+                          />
+                        </div>
+                        <div class="mb-3 col-md-3 col-6">
+                          <label class="form-label" for="hostel-address_uz"
+                            >до</label
+                          ><input
+                            type="datetime-local"
+                            id="hostel-address_uz"
+                            class="form-control"
+                          />
+                        </div>
+                      </div>
+                      <div>
+                        <button class="btn btn-success" href="./tour.html">добавлять</button>
                       </div>
                     </div>
                   </div>
@@ -726,17 +863,6 @@
                   <div class="card">
                     <div class="card-body">
                       <div class="row">
-                        
-                        <div class="mb-3 col-md-4 col-6">
-                          <label class="form-label" for="hostel-address_uz"
-                            >СТАТУС ТРАНСПОРТ</label
-                          >
-                          <select name="" id="" class="form-select">
-                            <option value="1">business</option>
-                            <option value="1">comfort</option>
-                            <option value="1">standart</option>
-                          </select>
-                        </div>
                         <div class="mb-3">
                           <label class="form-label" for="hostel-address_uz"
                             >ОПИСАНИЕ</label
